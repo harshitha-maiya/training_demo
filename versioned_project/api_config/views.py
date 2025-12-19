@@ -30,7 +30,7 @@ class MessageH4(APIView):
             "message": "Hello from Version 1"
         })
 
-class MessageH4(APIView):
+class MessageH5(APIView):
     def get(self, request):
         return Response({
             "version": "v1",

@@ -8,13 +8,3 @@ class MessageV1(APIView):
             "version": "v1",
             "message": "Hello from Version 1"
         })
-
-
-# -------- Version 2 View --------
-class MessageV2(APIView):
-    def get(self, request):
-        return Response({
-            "version": "v2",
-            "message": "Hello from Version 2",
-            "extra_info": "This field exists only in v2"
-        })

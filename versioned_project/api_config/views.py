@@ -8,3 +8,17 @@ class MessageV1(APIView):
             "version": "v1",
             "message": "Hello from Version 1"
         })
+
+class MessageH1(APIView):
+    def get(self, request):
+        return Response({
+            "version": "v1",
+            "message": "Hello from Version 1"
+        })
+    
+class MessageH3(APIView):
+    def get(self, request):
+        return Response({
+            "version": "v1",
+            "message": "Hello from Version 1"
+        })
